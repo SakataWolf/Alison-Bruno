@@ -1,11 +1,3 @@
-Perfeito 😈 vamos deixar isso com **presença de engenheiro sênior de produto**, algo que quando o recrutador bater o olho já entenda:
-
-> “Esse cara sabe o que está fazendo.”
-
-Aqui vai uma versão **mais impactante, estratégica e visualmente forte para GitHub** 👇
-
----
-
 # ⚡ Alison Bruno Oliveira de Morais
 
 ### Software Engineer | Frontend Specialist | Performance & UX Focus
