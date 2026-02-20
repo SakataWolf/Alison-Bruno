@@ -141,6 +141,20 @@
         .pulse-glow {
             animation: pulse-glow 2s ease-in-out infinite;
         }
+
+        @media (max-width: 768px) {
+            h1 {
+                line-height: 1.2;
+            }
+        
+            .floating {
+                animation: none; /* Remove animação no mobile para performance */
+            }
+        
+            .parallax-blob {
+                display: none; /* Remove blobs no mobile */
+            }
+        }
     </style>
 </head>
 <body class="text-white antialiased overflow-x-hidden">
@@ -813,3 +827,4 @@
 </body>
 
 </html>
+
