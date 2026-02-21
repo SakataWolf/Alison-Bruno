@@ -123,6 +123,15 @@
         .nav-link:hover::after {
             width: 100%;
         }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
         
         @keyframes float {
             0%, 100% { transform: translateY(0px); }
@@ -367,11 +376,11 @@
                     <i data-lucide="chevron-right" class="w-6 h-6 text-white" aria-hidden="true"></i>
                 </button>
 
-                <div id="carousel" class="carousel-track flex gap-6 overflow-x-auto pb-8 px-4 scrollbar-hide snap-x snap-mandatory">
+                <div id="carousel" class="carousel-track flex gap-4 sm:gap-6 overflow-x-auto pb-8 px-6 md:px-0 scrollbar-hide snap-x snap-mandatorygit">
                     <!-- Project 1 -->
-                    <a href="https://github.com/SakataWolf/anime_site" target="_blank" rel="noopener noreferrer" class="carousel-item min-w-[300px] md:min-w-[400px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
+                    <a href="https://github.com/SakataWolf/anime_site" target="_blank" rel="noopener noreferrer" class="carousel-item w-[85%] sm:w-[70%] md:w-[800px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
                         <div class="glass-strong rounded-3xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition duration-300 hover:shadow-2xl h-full">
-                            <div class="relative h-48 overflow-hidden">
+                            <div class="relative h-40 sm:h-48 md:h-56 overflow-hidden">
                                 <img src="https://raw.githubusercontent.com/SakataWolf/anime_site/main/Preview/home.png" alt="Sistema de Gestão" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" decoding="async">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                                 <div class="absolute top-4 right-4 glass px-3 py-1 rounded-full">
@@ -379,7 +388,7 @@
                                 </div>
                             </div>
                             <div class="p-6">
-                                <h3 class="text-xl font-bold mb-2 group-hover:text-purple-400 transition">Projeto Otaku Anime - Site Visual</h3>
+                                <h3 class="text-lg sm:text-xl font-bold mb-2 group-hover:text-purple-400 transition">Projeto Otaku Anime - Site Visual</h3>
                                 <p class="text-gray-300 text-sm mb-4">Um site visual totalmente estilizado, voltado ao público otaku e fã de animes, feito com HTML, CSS e JavaScript.</p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex gap-2">
@@ -393,9 +402,9 @@
                     </a>
 
                     <!-- Project 2 -->
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="carousel-item min-w-[300px] md:min-w-[400px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="carousel-item w-[85%] sm:w-[70%] md:w-[800px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
                         <div class="glass-strong rounded-3xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition duration-300 hover:shadow-2xl h-full">
-                            <div class="relative h-48 overflow-hidden">
+                            <div class="relative h-40 sm:h-48 md:h-56 overflow-hidden">
                                 <img src="https://raw.githubusercontent.com/SakataWolf/Consulta-CEP-Itanhaem/refs/heads/main/preview.png" alt="App de Delivery" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" decoding="async">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                                 <div class="absolute top-4 right-4 glass px-3 py-1 rounded-full">
@@ -403,7 +412,7 @@
                                 </div>
                             </div>
                             <div class="p-6">
-                                <h3 class="text-xl font-bold mb-2 group-hover:text-purple-400 transition">Consulta CEP – Itanhaém</h3>
+                                <h3 class="text-lg sm:text-xl font-bold mb-2 group-hover:text-purple-400 transition">Consulta CEP – Itanhaém</h3>
                                 <p class="text-gray-300 text-sm mb-4">Aplicação web progressiva criada para facilitar a consulta de CEPs de ruas e bairros de Itanhaém/SP</p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex gap-2">
@@ -417,9 +426,9 @@
                     </a>
 
                     <!-- Project 3 -->
-                    <a href="https://github.com/SakataWolf/xnet.git.io/tree/main" target="_blank" rel="noopener noreferrer" class="carousel-item min-w-[300px] md:min-w-[400px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
+                    <a href="https://github.com/SakataWolf/xnet.git.io/tree/main" target="_blank" rel="noopener noreferrer" class="carousel-item w-[85%] sm:w-[70%] md:w-[800px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
                         <div class="glass-strong rounded-3xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition duration-300 hover:shadow-2xl h-full">
-                            <div class="relative h-48 overflow-hidden">
+                            <div class="relative h-40 sm:h-48 md:h-56 overflow-hidden">
                                 <img src="https://raw.githubusercontent.com/SakataWolf/xnet.git.io/refs/heads/main/assets/calculadora-preview.png" alt="Análise Preditiva" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" decoding="async">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                                 <div class="absolute top-4 right-4 glass px-3 py-1 rounded-full">
@@ -427,7 +436,7 @@
                                 </div>
                             </div>
                             <div class="p-6">
-                                <h3 class="text-xl font-bold mb-2 group-hover:text-purple-400 transition">Calculadora Proporcional de Planos</h3>
+                                <h3 class="text-lg sm:text-xl font-bold mb-2 group-hover:text-purple-400 transition">Calculadora Proporcional de Planos</h3>
                                 <p class="text-gray-300 text-sm mb-4">A Calculadora Proporcional de Planos é uma Progressive Web App desenvolvida para calcular valores proporcionais.</p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex gap-2">
@@ -441,9 +450,9 @@
                     </a>
 
                     <!-- Project 4 -->
-                    <a href="https://github.com/SakataWolf/O.S-Generator" target="_blank" rel="noopener noreferrer" class="carousel-item min-w-[300px] md:min-w-[400px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
+                    <a href="https://github.com/SakataWolf/O.S-Generator" target="_blank" rel="noopener noreferrer" class="carousel-item w-[85%] sm:w-[70%] md:w-[800px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
                         <div class="glass-strong rounded-3xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition duration-300 hover:shadow-2xl h-full">
-                            <div class="relative h-48 overflow-hidden">
+                            <div class="relative h-40 sm:h-48 md:h-56 overflow-hidden">
                                 <img src="https://raw.githubusercontent.com/SakataWolf/O.S-Generator/refs/heads/main/preview.png" alt="Loja Virtual" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" decoding="async">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                                 <div class="absolute top-4 right-4 glass px-3 py-1 rounded-full">
@@ -451,7 +460,7 @@
                                 </div>
                             </div>
                             <div class="p-6">
-                                <h3 class="text-xl font-bold mb-2 group-hover:text-purple-400 transition">O.S Generator</h3>
+                                <h3 class="text-lg sm:text-xl font-bold mb-2 group-hover:text-purple-400 transition">O.S Generator</h3>
                                 <p class="text-gray-300 text-sm mb-4">Gerador de Ordem de Serviço (O.S) via formulário simples e intuitivo. </p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex gap-2">
@@ -465,9 +474,9 @@
                     </a>
 
                     <!-- Project 5 -->
-                    <a href="https://github.com/SakataWolf/Xnet-Urban-Rescue" target="_blank" rel="noopener noreferrer" class="carousel-item min-w-[300px] md:min-w-[400px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
+                    <a href="https://github.com/SakataWolf/Xnet-Urban-Rescue" target="_blank" rel="noopener noreferrer" class="carousel-item w-[85%] sm:w-[70%] md:w-[800px] flex-shrink-0 group block hover:-translate-y-2 transition-transform duration-300">
                         <div class="glass-strong rounded-3xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition duration-300 hover:shadow-2xl h-full">
-                            <div class="relative h-48 overflow-hidden">
+                            <div class="relative h-40 sm:h-48 md:h-56 overflow-hidden">
                                 <img src="https://raw.githubusercontent.com/SakataWolf/Xnet-Urban-Rescue/2521b446c384bf42cb312ca280e750d2d1f57d6f/Captura%20de%20tela%202026-02-20%20132112.png" alt="Infraestrutura Cloud" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" decoding="async">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                                 <div class="absolute top-4 right-4 glass px-3 py-1 rounded-full">
@@ -475,7 +484,7 @@
                                 </div>
                             </div>
                             <div class="p-6">
-                                <h3 class="text-xl font-bold mb-2 group-hover:text-purple-400 transition">XNet: Urban Rescue</h3>
+                                <h3 class="text-lg sm:text-xl font-bold mb-2 group-hover:text-purple-400 transition">XNet: Urban Rescue</h3>
                                 <p class="text-gray-300 text-sm mb-4">XNet: Urban Rescue é um jogo 2D em pixel art onde o jogador assume o papel de um técnico de manutenção</p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex gap-2">
