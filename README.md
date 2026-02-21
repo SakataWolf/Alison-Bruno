@@ -144,4 +144,8 @@ Software Engineer
 
 # 💡 Engineering Philosophy
 
+<<<<<<< HEAD
 > "Great software is not just built. It is engineered with intention."
+=======
+> "Great software is not just built. It is engineered with intention."
+>>>>>>> 76a519f (primeiro commit)
