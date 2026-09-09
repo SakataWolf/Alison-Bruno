@@ -46,7 +46,9 @@
     
     <title>Alison Bruno | Engenheiro de Software</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Load Lucide icon library from JSDelivr UMD build -->
+<script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/lucide.umd.js" defer></script>
+    <!-- End of icon library -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         /* Garantir que nada ultrapasse a largura da tela */
@@ -668,7 +670,8 @@
             <!-- Rodapé inferior -->
             <div class="border-t border-white/10 pt-5 flex flex-col md:flex-row justify-between items-center gap-3">
                 <p class="text-xs text-gray-500 text-center md:text-left">© 2026 Alison Bruno Oliveira de Morais. Todos os direitos reservados.</p>
-                <div class="flex gap-2">
+                <!-- Footer social icons using Lucide; ensure lucide script is loaded -->
+    <div class="flex gap-2">
                     <a href="https://github.com/SakataWolf" target="_blank" rel="noopener noreferrer" class="glass p-2 rounded-full hover:bg-white/10 transition" aria-label="GitHub">
                         <i data-lucide="github" class="w-4 h-4 text-gray-400" aria-hidden="true"></i>
                     </a>
